@@ -6,12 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-/**
- * @program: NewRetail
- * @description:
- * @author: Feri
- * @create: 2019-08-12 15:10
- */
+
 @SpringBootApplication
 @EnableDiscoveryClient
 @MapperScan("com.feri.shop.newretail.provider.dao")

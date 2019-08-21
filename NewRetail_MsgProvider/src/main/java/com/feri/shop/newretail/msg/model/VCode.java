@@ -11,6 +11,23 @@ import lombok.Data;
 @Data
 public class VCode {
     private int code;
+
+    public int getCode() {
+        return code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
     private String phone;
 
     public VCode() {

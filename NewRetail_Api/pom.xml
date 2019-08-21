@@ -33,16 +33,23 @@
             <artifactId>springfox-swagger-ui</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.feri.shop</groupId>
-            <artifactId>NewRetail_Common</artifactId>
-            <version>0.1</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.feri.shop</groupId>-->
+<!--            <artifactId>NewRetail_Common</artifactId>-->
+<!--            <version>0.1</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>com.feri.shop</groupId>
             <artifactId>NewRetail_Entity</artifactId>
             <version>0.1</version>
         </dependency>
+        <dependency>
+            <groupId>com.feri.shop</groupId>
+            <artifactId>NewRetail_Common</artifactId>
+            <version>0.1</version>
+            <scope>compile</scope>
+        </dependency>
+
 
 
     </dependencies>

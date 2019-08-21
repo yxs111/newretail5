@@ -6,12 +6,7 @@ import com.feri.shop.newretail.goods.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-/**
- * @program: NewRetail
- * @description:
- * @author: Feri
- * @create: 2019-08-12 15:40
- */
+
 @RestController
 public class UserController {
     @Autowired

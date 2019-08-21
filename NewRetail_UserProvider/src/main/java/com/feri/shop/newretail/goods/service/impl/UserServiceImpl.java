@@ -11,12 +11,7 @@ import com.feri.shop.newretail.goods.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-/**
- * @program: NewRetail
- * @description:
- * @author: Feri
- * @create: 2019-08-12 15:30
- */
+
 @Service
 public class UserServiceImpl implements UserService {
     @Autowired

@@ -19,12 +19,7 @@ import org.springframework.stereotype.Service;
 import java.util.Objects;
 import java.util.Set;
 
-/**
- * @program: NewRetail
- * @description:
- * @author: Feri
- * @create: 2019-08-14 14:14
- */
+
 @Service
 public class UserServiceImpl implements UserService {
     @Autowired

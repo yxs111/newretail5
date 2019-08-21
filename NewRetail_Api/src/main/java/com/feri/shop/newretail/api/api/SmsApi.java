@@ -9,12 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @program: NewRetail
- * @description:
- * @author: Feri
- * @create: 2019-08-13 15:09
- */
+
 @Api(value = "",tags = "短信操作")
 @RestController
 public class SmsApi {

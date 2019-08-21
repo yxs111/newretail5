@@ -8,12 +8,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-/**
- * @program: NewRetail
- * @description:
- * @author: Feri
- * @create: 2019-08-13 15:08
- */
+
 @Api(value = "",tags = "会员操作")
 @RestController
 public class UserApi {

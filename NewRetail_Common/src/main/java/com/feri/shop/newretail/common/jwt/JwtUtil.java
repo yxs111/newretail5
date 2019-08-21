@@ -20,7 +20,7 @@ import java.util.Date;
 public class JwtUtil {
     //生成令牌
     /*
-    * @param json 要生成的令牌内容*/
+    * @param json 要生成的 令牌内容*/
     public static String createJWT(String json){
         //1、创建加密规则
         SignatureAlgorithm signatureAlgorithm=SignatureAlgorithm.HS256;

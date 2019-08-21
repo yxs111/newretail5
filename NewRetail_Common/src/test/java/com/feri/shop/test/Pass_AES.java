@@ -3,12 +3,7 @@ package com.feri.shop.test;
 import com.feri.shop.newretail.common.util.EncryptionUtil;
 import org.junit.Test;
 
-/**
- * @program: NewRetail
- * @description:
- * @author: Feri
- * @create: 2019-08-12 14:57
- */
+
 public class Pass_AES {
     @Test
     public void test1(){

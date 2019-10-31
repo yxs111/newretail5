@@ -68,7 +68,7 @@ public class SmsServiceImpl implements SmsService {
             code= Random_Util.createNum(6);
             jedisUtil.setExpire(RedisKeyConfig.SMSCODE+phone,code+"",600);
         }
-        //验证码存储到Redis   有效期 10分钟
+        //验证码存储到Redis   有效期10分钟
 //        boolean issuccess= SmsUtil.sendMsg(phone,code);
         amqpTemplate.convertAndSend(RabbitMQConfig.ename,"", JSON.toJSONString(new VCode(code,phone)));
         //更新各种Key
